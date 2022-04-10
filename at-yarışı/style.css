@@ -1,0 +1,23 @@
+body{
+    /* background-image: url(./img/pist.jpg); */
+
+}
+
+img{
+    position: relative;
+    left: 20px;
+    width: 200px;
+    height: 100px;
+    margin-top: 10px;
+}
+.Finish{
+    position: fixed;
+    left: 1800px;
+    top: 0px;
+    width: 10px;
+    background-color: tomato;
+    color: white;
+    height: 1000px;
+    word-wrap: break-word;
+    
+}

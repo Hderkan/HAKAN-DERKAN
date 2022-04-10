@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div>
+    <ul id="baslık">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Projects</a>
+          <div class="dropdown-content">
+            <a id="popup1" type="button" href="#">Proje1</a>
+            <a id="popup2" type="button" href="#">Proje2</a>
+            <a id="popup3" type="button" href="#">Proje3</a>
+          </div>
+        </li>
+        <li class="ara"><input type="text"  ></li>
+         <li class="ara"><button id="karar">search</button></li>
+         <!-- <h5 id="patates" style="color: black;">OKTAY İNSAAT</h5>  -->
+      </ul>
+</div>
+
+<div class="sliderContent">
+    <div class="slide fade">
+        <img src="10-Best-Masters-In-Civil-Engineering-Programs-In-Canada.png" alt="">
+        <div class="captionText"><h2>Proje 1 </h2></div>
+    </div>
+    <div class="slide fade">
+        <img src="bridge-construction (1).jpg" alt="">
+        <div class="captionText"><h2>Proje 2</h2></div>
+    </div>
+    <div class="slide fade">
+        <img src="Image42.jpg" alt="">
+        <div class="captionText"><h2>Proje 3</h2></div>
+    </div>
+    <a class="prevSlide">&#10094</a>
+    <a class="nextSlide">&#10095</a>
+    <div class="dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+</div>
+
+<div>
+    <div id="anacard">
+        <div id="card">
+            <img src="10-Best-Masters-In-Civil-Engineering-Programs-In-Canada.png" alt="">
+        </div>
+        <div id="card">
+            <img src="bridge-construction (1).jpg" alt="">
+        </div>
+        <div id="card">
+            <img src="Image42.jpg" alt="">
+        </div>
+    </div>
+    <div id="anacard">
+        <div id="card">
+            <img src="10-Best-Masters-In-Civil-Engineering-Programs-In-Canada.png" alt="">
+        </div>
+        <div id="card">
+            <img src="bridge-construction (1).jpg" alt="">
+        </div>
+        <div id="card">
+            <img src="Image42.jpg" alt="">
+        </div>
+    </div>
+    <div id="anacard">
+        <div id="card">
+            <img src="10-Best-Masters-In-Civil-Engineering-Programs-In-Canada.png" alt="">
+        </div>
+        <div id="card">
+            <img src="bridge-construction (1).jpg" alt="">
+        </div>
+        <div id="card">
+            <img src="Image42.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+
+<div class="main-popup1">
+    
+     <div class="popup">
+        
+        <div class="content-popup">
+            <img src="10-Best-Masters-In-Civil-Engineering-Programs-In-Canada.png" alt=""> 
+            <div style="background-color: white; height: 400px; padding: 0%; margin: 0%;" >
+                <h1>Proje1</h1>
+                <p><h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic saepe excepturi dicta ea et consequuntur, magnam maiores distinctio labore omnis itaque obcaecati dolor nulla iste id nemo in quis illum officia! Iusto possimus minima neque nam rem obcaecati eveniet, libero doloribus sint alias aut minus nulla quo maiores est? Consequuntur?</h5></p>
+               </div>
+        </div>
+    </div> 
+</div>
+
+<div class="main-popup2">
+    
+    <div class="popup">
+       
+       <div class="content-popup">
+           <img src="bridge-construction (1).jpg" alt="">
+           <div style="background-color: white; height: 400px; padding: 0%; margin: 0%;">
+            <h1>Proje2</h1>
+            <p><h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aliquam libero vel aspernatur voluptates et commodi inventore, enim quae, adipisci, doloribus voluptatem tempore ipsam blanditiis provident. Ipsum, delectus voluptatum? Quae praesentium eos quisquam. Aspernatur quasi sint, dolorem veniam odit error quae ea magnam quos atque placeat asperiores iusto itaque quo.</h5></p>
+           </div>
+       </div>
+   </div> 
+</div>
+
+<div class="main-popup3">
+    
+    <div class="popup">
+       
+       <div class="content-popup">
+           <img src="Image42.jpg" alt=""> 
+           <div style="background-color: white; height: 400px; padding: 0%; margin: 0%;">
+            <h1>Proje3</h1>
+            <p><h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo culpa ad quisquam placeat id officia, a dolore impedit harum aperiam accusantium quibusdam neque consectetur ex sequi illum fugiat ipsum veritatis, alias omnis dolorum quod perspiciatis ipsa voluptates. Ipsam laborum rerum adipisci, laudantium dolor sit sed ratione necessitatibus tenetur, voluptatibus nam esse, repudiandae voluptate. Vitae possimus quis adipisci nemo, aut incidunt, vero quibusdam, excepturi similique officia esse? Veniam maiores natus tempore voluptas atque quasi! Temporibus mollitia harum perferendis eum tenetur iste, reiciendis qui cupiditate possimus esse aliquid voluptatum dolores atque quidem?</h5></p>
+           </div>
+       </div>
+   </div> 
+</div>
+
+
+<script src="script.js"></script>
+</body>

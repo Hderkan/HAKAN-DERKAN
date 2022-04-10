@@ -1,0 +1,28 @@
+#ilk3{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    flex-direction: row;
+}
+#img1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+}
+.img-thumbnail{
+    max-width: 210px;
+    min-height: 210px;
+}
+.img-fluid.rounded-start{
+
+    max-width: 121px;
+    min-height: 72px; 
+} 
+.modal-content{
+    width: 480px !important;
+    margin-top: 400px;
+    
+}

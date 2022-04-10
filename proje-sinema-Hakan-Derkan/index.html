@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>wissen-sinema</title>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">wissen-sinema</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Salon1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Salon2</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Salon3
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">iletisim</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        <div id="filmler" >
+            <div id="carouselExampleControls" class="carousel slide w-100 mx-auto " data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                <a href="#bergencard"><img id="bergen" src="./BERGEN_BANNER_1920x420_.jpg" class="d-block w-100 " alt="..."></a>
+                  </div>
+                  <div class="carousel-item">
+                 <a href="#batmancard"><img id="batman" src="./THE_BATMAN_Slider.jpg" class="d-block w-100" alt="..."></a>
+                  </div>
+                  <div class="carousel-item">
+                   <a href="#eiffelcard"><img id="eiffel" src="./E_FFEL_-_Slider.jpg" class="d-block w-100" alt="..."></a>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    
+        <div id="img1">
+            
+            <a  class="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img src="brgnkucuk.jpg" alt=""class="img-thumbnail" style="cursor: pointer;">
+            </a>
+            <a  class="" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                <img src="TR_TURKEY_TheBatman_VERT_MONTAGE_Afis_yKucuk.jpg" alt=""class="img-thumbnail" style="cursor: pointer;">
+            </a>
+            <!-- <a href="#batmancard"><img id="batman" src="./TR_TURKEY_TheBatman_VERT_MONTAGE_Afis_yKucuk.jpg" class="img-thumbnail" alt="..."></a> -->
+            <a  class="" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                <img src="eiffelkucuk.png" alt=""class="img-thumbnail" style="cursor: pointer;">
+            </a>
+            <!-- <a href="#eiffelcard"><img id="eiffel" src="./eiffelkucuk.png" class="img-thumbnail" alt="..."></a> -->
+            </div>
+        <div id="img1">
+            <a  class="" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                <img src="Adanis_Kutsal_Kavga.jpg" alt=""class="img-thumbnail" style="cursor: pointer;">
+            </a>
+            
+            <!-- <a href="#kavgacard"><img id="Kavga" src="./Adanis_Kutsal_Kavga.jpg" class="img-thumbnail" alt="..."></a> -->
+            <a  class="" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                <img src="HO00005037_637816629447758441_ambulans.png" alt=""class="img-thumbnail" style="cursor: pointer;">
+            </a>
+            <!-- <a href="#ambulanscard"><img id="ambulans" src="./HO00005037_637816629447758441_ambulans.png" class="img-thumbnail" alt="..."></a> -->
+            <a  class="" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                <img src="kirmizi.jpg" alt=""class="img-thumbnail" style="cursor: pointer;">
+            </a>
+            <!-- <a href="#kirmizicard"><img id="kirmizi" src="./kirmizi.jpg" class="img-thumbnail" alt="..."></a> -->
+        </div>      
+        <div id="ilk3">
+            <div id="bergencard" class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./brgnkucuk.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Bergen</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="batmancard" class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./TR_TURKEY_TheBatman_VERT_MONTAGE_Afis_yKucuk.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Batman</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="eiffelcard" class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./eiffelkucuk.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Eiffel</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    
+        <div id="ilk3">
+            <div id="kavgacard" class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./Adanis_Kutsal_Kavga.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Kutsal</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="ambulanscard" class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./HO00005037_637816629447758441_ambulans.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Ambulans</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="kirmizicard" class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./kirmizi.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Kırmızı</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    
+        <div id="footer">
+    
+            <div class="card text-center">
+                <div class="card-header">
+                  
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Destek ve Şikayet</h5>
+                  <p class="card-text">Copyright…. Destek…. Kullanım Koşulları KVKK
+                </p>
+                  <a href="#" class="btn btn-primary">Destek Birimi</a>
+                </div>
+                <div class="card-footer text-muted">
+                  2 days ago
+                </div>
+              </div>
+        </div>
+    </div>
+  
+   
+    
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content " style="width: 900px;">
+            <div id="bergencard" class="card mb-3" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./brgnkucuk.jpg" class="img-fluid rounded-start"  alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Bergen</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content " style="width: 900px;">
+            <div id="bergencard" class="card mb-3" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="TR_TURKEY_TheBatman_VERT_MONTAGE_Afis_yKucuk.jpg" class="img-fluid rounded-start"  alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Batman</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content " style="width: 900px;">
+            <div id="bergencard" class="card mb-3" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="eiffelkucuk.png" class="img-fluid rounded-start"  alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">eiffel</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content " style="width: 900px;">
+            <div id="bergencard" class="card mb-3" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="Adanis_Kutsal_Kavga.jpg" class="img-fluid rounded-start"  alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Kavga</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content " style="width: 900px;">
+            <div id="bergencard" class="card mb-3" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="HO00005037_637816629447758441_ambulans.png" class="img-fluid rounded-start"  alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Ambulans</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content " style="width: 900px;">
+            <div id="bergencard" class="card mb-3" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="kirmizi.jpg" class="img-fluid rounded-start"  alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Kırmızı</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+    
+      <script src="slider.js"></script>
+</body>
+</html>
